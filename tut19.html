@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Height,Width,Borders and Backgrounds</title>
+    <style>
+        #firstpara {
+            background-color: red;
+            height: 100px;
+            width: 400px;
+            border-radius: 13px;
+            border-style: solid;
+            border-color: seagreen;
+            /* border: 13px solid seagreen;  all the  border things in one line */
+        }
+
+        #secondpara {
+            background-color: wheat;
+            height: 100px;
+            width: 300px;
+            border-radius: 10px;
+            border-style: solid;
+            border-top: 50px violet;
+            border-right: 50px rgb(54, 253, 233);
+            border-bottom: 50px rgb(110, 189, 235);
+            border-left: 50px crimson;
+        }
+
+        #thirdpara {
+            height: 300px;
+            width: 455px;
+            background-image: url('https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1556103255-4443dbae8e5a%3Fixid%3DMnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGhvdG9ncmFwaGVyfGVufDB8fDB8fA%253D%253D%26ixlib%3Drb-1.2.1%26w%3D1000%26q%3D80&imgrefurl=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fphotographer&tbnid=Ze7EumLD6BwqiM&vet=12ahUKEwj08731tqPxAhU2kUsFHcbWBNcQMygHegUIARDoAQ..i&docid=8ncfNjXWb262-M&w=1000&h=1479&q=images&ved=2ahUKEwj08731tqPxAhU2kUsFHcbWBNcQMygHegUIARDoAQ');
+            background-image: url('https://in.pinterest.com/pin/10836855339147052/');
+            background-image: url('https://www.codewithharry.com/assets/img/logo.png');
+            border: 2px solid red;
+            background-repeat: no-repeat;
+            /* repeat-x and repeat-y will make it repeat on x and y axis*/
+            background-position: 122px 32px;
+            /* background-position: 192px 34px; */
+            background-position: center center;
+            /* background-position: bottom right; */
+            /* background-position: top center; */
+
+        }
+    </style>
+</head>
+
+<body>
+    <h3>This is heading</h3>
+    <p id="firstpara">This is a paragraph</p>
+    <h3>This is second heading</h3>
+    <p id="secondpara">This is a second paragraph</p>
+    <h3>This is third heading</h3>
+    <p id="thirdpara">This is a third paragraph</p>
+</body>
+
+</html>
